@@ -1,0 +1,77 @@
+*{
+
+}
+body{
+    background-color: rgb(66, 83, 128);
+}
+#main-box{
+    /* background-color: aliceblue; */
+    /* box-shadow: 10px 10px lightblue; */
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    margin-left: 35%;
+    background-image: linear-gradient(rgb(201, 45, 45), rgb(74, 74, 59), blue);
+    border-radius: 10px;
+}
+#main-box:hover{
+    border-color: azure;
+
+}
+.imgCover{
+    width: 350px;
+    height: 350px;
+    margin-left: 25px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.aname{
+    color: white;
+    margin: 0px;
+    margin-left: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pg-bar{
+    margin-left: 35px;
+    margin-bottom: 10px;
+    width: 330px;
+    /* height: 350px; */
+}
+.icons{
+    margin-left: 70px;
+}
+.icons button{
+    margin: 2px;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.icons button:hover{
+    border: 3px;
+    background: brown;
+    border-radius: 20px;
+}
+.icons i{
+    margin-top: 1px;
+}
+.upper-box{
+    background-color: rgb(227, 133, 133);
+
+    margin: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    height: 40px;
+}
+.upper-box h3{
+    align-items: baseline;
+    margin-top: 5px;
+}
+.volume-changer{
+    background-color: black;
+    size: 2cap;
+    width: 65px;
+    height: 5px;
+    margin: 10px;
+    
+}
